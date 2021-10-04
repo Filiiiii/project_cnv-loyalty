@@ -1,0 +1,455 @@
+/* Responsive */
+
+/* PC */
+
+@media (min-width: 1024px) {
+    .header__menu-bar {
+        display: none;
+    }
+}
+
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    #header {
+        height: 105px;
+    }
+    #headerlogoimg {
+        background-color: #ffffff;
+    }
+    #header .header__container-fluid {
+        min-height: inherit;
+        height: auto !important;
+        max-height: inherit;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #header .header__row {
+        margin-left: -15px;
+        margin-right: -15px !important;
+        padding: 0 !important;
+    }
+    #header .header__right {
+        display: none;
+    }
+    #header .header__left {
+        position: relative;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #header .header__mobile-bar {
+        display: block;
+        width: 80px;
+        height: 30px;
+    }
+    #header .header__navbar-menu {
+        display: none;
+    }
+    #modal__inpage {
+        z-index: 99999 !important;
+        padding: 15px !important;
+        overflow: scroll !important;
+    }
+    .group__content-modals {
+        top: 70px !important;
+    }
+    .header-modal {
+        width: 100% !important;
+    }
+    .header-modal p {
+        margin-top: 0 !important;
+        margin-bottom: 5px !important;
+        text-align: center !important;
+    }
+    .header-modal p img {
+        max-width: 260px !important;
+    }
+    .content-modals {
+        width: 100% !important;
+        padding-bottom: 10px !important;
+    }
+    .group-slogan-modals {
+        padding: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .descripstion-modals {
+        font-size: 12px !important;
+        margin-bottom: 3px !important;
+    }
+    #header .header__right {
+        background-color: rgba(255, 255, 255, 0.03);
+        display: block !important;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        max-height: 400px;
+        overflow-y: none;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header__menu-bar {
+        display: none;
+        box-shadow: rgb(0 0 0 / 15%) 0px 10px 13px 0px;
+        padding: 15px 0;
+    }
+    #header .header__menu-item:last-child {
+        position: relative;
+    }
+    #header .header__logo-link {
+        padding: 0;
+    }
+    #header .header__logo img {
+        width: 90%;
+    }
+    .home__content {
+        text-align: center;
+    }
+    .home__container .home__content-title {
+        font-size: 38px;
+        line-height: 55px;
+    }
+    .home__container .home__content-title-sub {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .home__container .home__content-title-mini {
+        margin-bottom: 20px;
+    }
+    .home__container .btn-integrated {
+        width: 100%;
+    }
+    .home__right {
+        margin-bottom: 20px;
+    }
+    .features__description {
+        width: 100% !important;
+    }
+    .features__title-sub {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    #features .features__info-img {
+        padding-top: 25%;
+    }
+    #features .features__service-description {
+        width: 100%;
+        height: 30px !important;
+    }
+    #solutions .solutions__left {
+        margin-bottom: 20px;
+    }
+    #solutions .solutions__right {
+        margin-bottom: 20px;
+    }
+    #solutions .solution__content {
+        width: 100%;
+    }
+    #solutions .solution__content-des {
+        width: 100%;
+    }
+    #solutions .solution__content-sub-des {
+        font-size: 15px;
+    }
+    #benefit .benefit__title-sub {
+        margin-bottom: 20px;
+    }
+    #pricelist .price__customer {
+        margin-bottom: 20px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #pricelist .price__des {
+        font-size: 15px;
+        margin: 0;
+    }
+    #pricelist .price__styles {
+        margin: 0px 0px 20px 0;
+    }
+    #pricelist .price__btn {
+        margin-top: 0px;
+    }
+    #pricelist .price__selected {
+        box-shadow: none;
+    }
+    #testimonials .testimonials__img,
+    #testimonials .testimonials__content{
+        width: 100%;
+    }
+    #testimonials .testimonials__des {
+        margin-top: 0px;
+        padding: 20px;
+    }
+    #testimonials .testimonials__title {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    #sectionnew .info__sub {
+        margin-bottom: 0;
+    }
+    #sectionnew .info__learmore {
+        margin-bottom: 0;
+    }
+    #customers .customer__container {
+        display: none;
+    }
+    #customers .customer__slider {
+        display: block;
+    }
+    #question .info__obj {
+        text-align: center;
+    }
+    #question .question__wrap {
+        flex-wrap: wrap;
+        padding: 30px 45px;
+    }
+    #question .title {
+        font-size: 24px;
+        line-height: 40px;
+        max-width: none;
+        text-align: left;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #header {
+        height: 125px;
+    }
+    #header .header__container-fluid {
+        min-height: inherit;
+        height: auto !important;
+        max-height: inherit;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #header .header__row {
+        margin-left: -15px;
+        margin-right: -15px !important;
+        padding: 0 !important;
+    }
+    #header .header__left {
+        position: relative;
+        padding-left: 25px;
+        padding-right: 25px;
+        display: flex !important;
+    }
+    #header .header__logo {
+        width: 90%;
+        height: 104px;
+    }
+    #header .header__logo img {
+        width: 100%;
+        height: 110px;
+        max-width: 100%;
+    }
+    #header .header__mobile-bar {
+        display: block;
+    }
+    #header .header__navbar-menu {
+        display: none;
+    }
+    #header .header__mobile-bar {
+        right: 50px;
+        top: 125%;
+    }
+    #sidebar {
+        display: block;
+        width: 400px;
+        position: fixed;
+        top: 0;
+        right: -400px;
+        height: 100vh;
+        z-index: 999999;
+        background-color: #415167;
+        color: #fff;
+        transition: all 0.3s;
+        overflow-y: scroll;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    #sidebar.active {
+        right: 0;
+    }
+
+    #dismiss {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        color: #fff;
+        /* background: #7386D5; */
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        z-index: 99999999;
+    }
+
+    #dismiss:hover {
+        background: #fff;
+        color: #7386d5;
+    }
+
+    #sidebar .header__right-nav {
+        list-style-type: none;
+        text-transform: uppercase;
+        margin: 5% 0 15% 15%;
+    }
+    #sidebar .header__right-nav > li {
+        display: block;
+        margin: 7% 0;
+    }
+    #sidebar .header__right-nav > li > a {
+        text-decoration: none;
+        color: #edf0f5;
+        font-size: 16px;
+    }
+    #sidebar .header__right-homepage {
+        font-style: normal;
+        font-weight: bold;
+    }
+    #sidebar .header__right-navitem {
+        font-style: normal;
+        font-weight: 300;
+    }
+    #sidebar .header__menu-btn {
+        cursor: pointer;
+        color: #ffffff;
+        background-color: #f3648c;
+        min-height: 46px;
+        min-width: 48px;
+        border-radius: 3px;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 8px 15px;
+        border: 0px;
+    }
+    #features .features__col {
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    #solutions .solutions__left,
+    #solutions .solutions__right {
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #solutions .solutions__youtube-icon {
+        top: 55%;
+    }
+    #solutions .solutions__info-title{
+        font-size: 1.125rem;
+    }
+    #solutions .change-height{
+        height: 93.3333px!important;
+        font-size: 1.125rem;
+    }
+    #customers .customer__item-mobile{
+        width: 115px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 46.1875em) {
+    #sidebar {
+        display: block;
+        width: 300px;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        z-index: 999999;
+        background-color: #415167;
+        color: #fff;
+        transition: all 0.3s;
+        overflow-y: scroll;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    #sidebar.active {
+        right: 0;
+    }
+
+    #dismiss {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        color: #fff;
+        /* background: #7386D5; */
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        z-index: 99999999;
+    }
+
+    #dismiss:hover {
+        background: #fff;
+        color: #7386d5;
+    }
+
+    #sidebar .header__right-nav {
+        list-style-type: none;
+        text-transform: uppercase;
+        margin: 5% 0 15% 15%;
+    }
+    #sidebar .header__right-nav > li {
+        display: block;
+        margin: 7% 0;
+    }
+    #sidebar .header__right-nav > li > a {
+        text-decoration: none;
+        color: #edf0f5;
+        font-size: 16px;
+    }
+    #sidebar .header__right-homepage {
+        font-style: normal;
+        font-weight: bold;
+    }
+    #sidebar .header__right-navitem {
+        font-style: normal;
+        font-weight: 300;
+    }
+    #sidebar .header__menu-btn {
+        cursor: pointer;
+        color: #ffffff;
+        background-color: #f3648c;
+        min-height: 46px;
+        min-width: 48px;
+        border-radius: 3px;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 8px 15px;
+        border: 0px;
+    }
+
+    /*  */
+    .home__page {
+        padding-top: 100px;
+        width: 100%;
+    }
+
+    #solutions {
+        padding: 10px 0 30px 0;
+    }
+    #solutions .solutions__info-title{
+        font-size: 1.125rem;
+    }
+    #solutions .solutions__youtube-icon {
+        top: 45%;
+    }
+    
+}

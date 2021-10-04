@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@font-face {
+    font-family: "SVN Poppins";
+    src: url(../fonts/SVN-Poppins-Regular.ttf) format("truetype");
+}
+/* Price List */
+body {
+    color: #888888;
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: 'SVN Poppins' !important;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'SVN Poppins';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #2d3345;
+    line-height: 1.3;
+}
+
+.container-width-customer {
+    max-width: 1300px;
+}
+
+#pricelist {
+    padding: 10px 0 30px 0;
+}
+#pricelist .price__container-fluid {
+    margin-bottom: 30px;
+}
+#pricelist .price__customer {
+    margin-bottom: 20px;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+#pricelist .price__info-obj {
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+#pricelist .price__info {
+    flex: 1;
+}
+#pricelist .rec-label {
+    background-color: transparent;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 35px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0px 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#pricelist .price__title {
+    color: red;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+#pricelist .price__des {
+    color: rgb(52, 61, 72);
+    display: block;
+}
+#pricelist .price__social {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+#pricelist .price__styles {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+    display: flex;
+    letter-spacing: -0.55px;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    margin: 20px 0;
+    color: #000;
+    justify-content: center;
+    font-family: 'SVN Poppins';
+}
+#pricelist .price__styles span {
+    font-size: 16px;
+}
+#pricelist .price__btn {
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid rgba(91, 43, 157, 0.15);
+    color: #f3648c;
+    min-height: 46px;
+    min-width: 48px;
+    font-family: 'SVN Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 8px 15px;
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+    margin-top: 21px;
+    margin-bottom: 26px;
+}
+#pricelist .price__btn:hover {
+    background-color: #f3648c;
+    color: rgb(255 255 255);
+}
+#pricelist .price__btn-red {
+    color: rgb(255, 255, 255);
+    background-color: #cd3f24;
+}
+#pricelist .price__list-des {
+    color: rgb(52, 61, 72);
+    display: flex;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 30px;
+    text-align: left;
+    font-family: 'SVN Poppins';
+}
+#pricelist .price__list-des > i {
+    display: inline-block;
+    color: #e9c46a;
+    margin-right: 12px;
+}
+#pricelist .price__not-choice,
+#pricelist .price__not-choice > i {
+    color: #9d9fa1;
+}
+#pricelist .price__selected {
+    box-shadow: 0px 3px 10px 7px #797676;
+}
+/* Testimonials*/
+
+#testimonials {
+    padding-top: 10px;
+    position: relative;
+}
+.testimonials__con::before {
+    background-color: rgb(240, 243, 248);
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: calc(100% - 30px);
+}
+#testimonials .testimonials__img {
+    padding: 0 !important;
+}
+#testimonials .testimonials__img img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
+#testimonials .testimonials__content {
+    width: 100%;
+}
+#testimonials .testimonials__des {
+    margin-top: 40px;
+    padding: 40px;
+}
+#testimonials .testimonials__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: -1px;
+    color: #211616 !important;
+    font-family: 'SVN Poppins';
+    margin-bottom: 40px;
+}
+#testimonials .testimonials__des p {
+    font-size: 15px;
+    color: #211616 !important;
+    font-family: 'SVN Poppins';
+    margin-bottom: 20px;
+}
+/* Section New */
+#sectionnew {
+    padding: 100px 0 30px 0;
+}
+#sectionnew .section__col {
+    margin-bottom: 20px;
+}
+#sectionnew .section__one-info {
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+#sectionnew .section__one-img {
+    margin-bottom: 25px !important;
+    min-height: 150px;
+}
+#sectionnew .section__one-img > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sectionnew .info {
+    text-align: left;
+}
+#sectionnew .info__title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+#sectionnew .info__sub {
+    color: #888888;
+    font-size: 16px;
+}
+#sectionnew .info__learmore {
+    font-size: 15px;
+    line-height: 42px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #f3648c;
+    font-weight: 500;
+    margin-top: 15px;
+}
+#sectionnew .info__learmore a,
+.info__learmore a:hover,
+.info__learmore a:focus {
+    color: #f3648c;
+    text-decoration: none;
+    outline: 0;
+}
+#sectionnew .info__learmore a:hover,
+.info__learmore a:focus {
+    opacity: 0.7;
+}
+
+/* Customer */
+#customers {
+    padding-bottom: 100px;
+}
+#customers .customer__partner {
+    overflow: hidden;
+    text-align: center;
+    padding-top: 40px;
+    display: inline-block;
+}
+#customers .customer__item {
+    width: 16.66666666%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#customers .customer__item img {
+    width: 90%;
+    height: 91px;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+}
+#customers .customer__slider {
+    display: none;
+}
+
+/* Question */
+#question {
+    padding: 10px 0 30px 0;
+}
+#question .question__container {
+    padding: 0 15px !important;
+}
+#question .question__content {
+    padding: 0 20px !important;
+    margin-bottom: 20px;
+}
+#question .info__obj {
+    border-bottom: 2px solid rgb(15, 33, 55);
+    padding-bottom: 5%;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+#question .info__title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+#question .info__sub {
+    color: #888888;
+}
+#question .question__con-form {
+    margin-top: 5%;
+}
+#question .question__banner {
+    margin-bottom: 20px;
+    padding: 0 20px !important;
+}
+#question .question__wrap {
+    background: url("../image/hoavan_faq.png") 66% center no-repeat #f3648c;
+    border-radius: 15px;
+    padding: 40px 75px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+#question .title {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 55px;
+    letter-spacing: -0.5px;
+    max-width: 52%;
+    margin-bottom: 15px;
+}
+#question .question__wrap-button {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+#question .question__wrap-button img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#question .question__detail-btn {
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 54, 86);
+    margin: 15px 0px;
+    min-height: 46px;
+    min-width: 48px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 8px 15px;
+    border: 0px;
+    transition: all 0.3s ease 0s;
+}
+
+/* Footer */
+#footer .footer__item {
+    margin-bottom: 20px;
+    padding: 0 10px !important;
+}
+#footer .footer__item > p {
+    margin-bottom: 20px;
+}
+.inline-block {
+    display: inline-block;
+}
+#footer .footer__logo-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#footer .footer__title {
+    letter-spacing: -0.5px;
+    color: rgb(15, 33, 55);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#footer .footer__menu-item {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#footer .footer__menu-item li {
+    margin-bottom: 5px;
+}
+#footer .footer__menu-item li a {
+    color: rgba(2, 7, 62, 1);
+    font-size: 15px;
+    line-height: 2.5;
+}
+#footer .footer__menu-item li a:hover,
+#footer .footer__menu-item li a:focus {
+    opacity: 0.7;
+}
+#footer .icon_social {
+    margin-right: 12px;
+    display: initial;
+    width: 20px;
+    height: 20px;
+    max-width: 100%;
+}
+
+/* Modal InPage */
+#modal__inpage {
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    padding: 25px;
+    font-family: 'SVN Poppins';
+}
+#modal__inpage .group__content-modals {
+    max-width: 750px;
+    width: 100%;
+    background: #fff url("../image/bgr-popup.png");
+    position: relative;
+    top: 82px;
+    left: 50%;
+    transform: translate(-50%, -35px);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 25px;
+    background-repeat: no-repeat;
+    background-position: -3px;
+    background-size: 440px;
+}
+#modal__inpage .header-modal {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#modal__inpage .header-modal p {
+    max-width: 325px;
+    margin: auto;
+    margin-top: 32%;
+}
+#modal__inpage .header-modal img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#modal__inpage .content-modals {
+    width: 55%;
+    padding: 0 25px;
+}
+#modal__inpage .group-slogan-modals {
+    padding: 7px;
+    margin-bottom: 0;
+}
+#modal__inpage #close-modal-page {
+    display: block;
+    background: #f4b3ce;
+    float: right;
+    padding: 3px;
+    box-shadow: 0 1px 1px 0 #7c7c7c;
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+#modal__inpage #close-modal-page img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#modal__inpage .descripstion-modals {
+    color: #000;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.title_strong {
+    font-weight: bold;
+    font-size: 20px;
+}
+#modal__inpage .input {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+#modal__inpage .form-input {
+    border: solid 2px #eef4f4;
+    background: #eef4f4;
+    border-radius: 7px;
+    width: 100%;
+    margin-bottom: 17px;
+    height: 42px;
+}
+#modal__inpage input[type="email"],
+#modal__inpage input[type="password"],
+#modal__inpage input[type="text"] {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#modal__inpage .input.phones {
+    width: 48%;
+}
+#modal__inpage .input.emails {
+    width: 48%;
+    float: right;
+}
+#modal__inpage .btn-modalss {
+    width: calc(100% - 62px);
+    background: #e45991;
+    border: solid 1px #e45991;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    height: 52px;
+    border-radius: 44px;
+    margin-top: 7px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: ease-in-out 0.5s all;
+    position: relative;
+}
+.btn-modalss::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 11px;
+    transform: translate(-15px, -50%);
+    background: url("../image/paperr.png");
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+}
